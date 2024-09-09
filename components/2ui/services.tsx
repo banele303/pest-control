@@ -4,37 +4,37 @@ import { ScrollBasedVelocityDemo } from "../demos/scroll-based-velocity-demo";
 
 const services = [
     {
-        icon: "/images/s_6.png",
+        icon: "/pest/cockro.jpeg",
         title: "COCKROACHES",
         description:
             "Kill adult & juvenile roaches. Make sure juveniles can't reproduce and eggs can't hatch with reputable insect growth regulator.",
     },
     {
-        icon: "/images/s_1.png",
+        icon: "/pest/ants.jpeg",
         title: "ANTS & TERMITE",
         description:
             "In nature, ants and termites are often found living close to each other. Termites and carpenter ants both like wood. Call Us!",
     },
     {
-        icon: "/images/s_5.png",
+        icon: "/pest/bees.jpeg",
         title: "BEE RELOCATIONS",
         description:
             "Professional bee removal & bee relocation service. Please help us to save bees. Professional Bee movers. Safe Removal",
     },
     {
-        icon: "/images/s_3.png",
+        icon: "/pest/rat.jpeg",
         title: "RATS",
         description:
             "Rats don't like the smell of peppermint, placing peppermint oil on cotton wool balls in corners of your home will help to keep them away.",
     },
     {
-        icon: "/images/s_3.png",
+        icon: "/pest/cockro2.jpeg",
         title: "BED BUGS",
         description:
             "Do not try to use agricultural or garden pesticides or use products that appear to be “homemade” or “custom formulated.” Call Us!",
     },
     {
-        icon: "/images/s_3.png",
+        icon: "/pest/brounants.jpeg",
         title: "WASPS",
         description:
             "Get rid of wasps with a professional wasp nest treatment service helping to keep you safe from the risk of painful wasp stings",
@@ -61,7 +61,7 @@ const Services = () => {
                             src={service.icon}
                             width={10000}
                             height={10000}
-                            className="object-contain bg-gray-100 p-4 w-full h-40 rounded-md"
+                            className="object-contain bg-gray-100 p-4 w-full"
                             alt="image"
                         />
                         <h1 className="text-xl font-medium">{service.title}</h1>
