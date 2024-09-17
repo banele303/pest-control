@@ -5,6 +5,7 @@ import Calendly from "./calendly";
 import ShowcaseNavbar from "@/components/showcase-navbar";
 import { PiCheckCircle } from "react-icons/pi";
 import { motion } from "framer-motion";
+import Navbar from "../about-us/navbar";
 
 const checkItemVariants = {
   hidden: { opacity: 0, x: -50 },
@@ -24,31 +25,30 @@ const Meeting = () => {
   bg-[#fafafa] bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]
     
     ">
-      <ShowcaseNavbar />
-      <div className="md:px-0 px-6 xl:w-4/5 2xl:w-[68%] justify-between md:mt-14 md:flex mx-auto  ">
+     <Navbar/>
+      <div className="md:px-0 px-6 xl:w-4/5 2xl:w-[68%] justify-between mt-[9rem] md:flex mx-auto  ">
         <div className="md:w-2/5">
-          <h1 className="text-4xl font-semibold pt-10   ">Let&apos;s Meet</h1>
+          <h1 className="text-4xl font-semibold pt-10   ">Complete Pest Elimination Solution</h1>
           <p className="text-lg text-gray-500 py-4">
-            We are always excited to meet new people and discuss new projects.
-            Please feel free to book a meeting with us.
+          We believe that charging a call-out fee is unethical. We endeavor to provide you with pest control services that are both affordable and effective.
           </p>
 
           {[
                 {
-                  title: "Development + Design",
+                  title: "Step 1",
                   description:
-                    "Turn your ideas into reality with our development and design services.",
+                    "Call us on +27 74 684 5729 or request a call-back, to receive your free no-obligation quote and advice.",
                 },
 
                 {
-                  title: "Free Consultation",
+                  title: "Step 2",
                   description:
-                    "Get expert advice on how to improve your business and increase your online presence.",
+                    "We will confirm your appointment and send one of our experts out to you.",
                 },
                 {
-                  title: "Technical Support",
+                  title: "Step 3",
                   description:
-                    "Get technical support for your website or application.",
+                    "One of our professionals will get straight to resolving your issue quickly and efficiently.",
                 },
               ].map((item, index) => (
                 <motion.div
