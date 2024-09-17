@@ -42,7 +42,7 @@ const Navbar = () => {
           <div className="px-2 flex justify-between items-center w-full h-full">
             <div className="flex items-center md:pl-6 realtive ">
              
-              <Image src="/logo/main-logo.png" alt="logo" className="py-[1rem] absolute w-[5rem] md:w-[9rem] h-[5rem] md:h-[10rem]" width={200} height={50} />
+              <Image src="/logo/main-logo.png" alt="logo" className="py-[1rem] absolute w-[5rem] md:w-[9rem] h-[7rem] md:h-[10rem]" width={200} height={50} />
              
             </div>
             <div className="hidden md:flex pr-4">

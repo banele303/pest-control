@@ -336,84 +336,12 @@ export default function Home() {
         </main>
       </Element>
 
-      <section>
-
-        <h1 className="text-xl md:text-2xl md:text-center pt-[2rem] font-medium flex items-center gap-x-2 mx-auto justify-center">
-          What our Clients are saying
-
-        </h1>
-
-
-        <main className="md:flex items-center justify-center space-y-6 md:space-y-0 md:gap-x-20 xl:w-4/5 2xl:w-[68%] mx-auto px-6 md:px-0">
-
-          <div className="flex flex-col gap-y-5 pt-4">
-            <h1 className="text-lg md:text-xl ">
-              &quot;We&apos;ve been working with Bird for over 2 years and
-              they&apos;ve been amazing to work with. They&apos;ve helped us
-              grow our business and we couldn&apos;t be happier with the
-              results. &quot;
-            </h1>
-            <div className="flex items-center gap-x-1">
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-            </div>
-
-            <span className="text-xl font-medium">
-              Jordan, Brisson <br />
-              CEO, Atlas Massage
-            </span>
-          </div>
-          <div className="flex flex-col gap-y-5 ">
-            <h1 className="text-lg md:text-xl ">
-              &quot;We&apos;ve been working with Bird for over 2 years and
-              they&apos;ve been amazing to work with. They&apos;ve helped us
-              grow our business and we couldn&apos;t be happier with the
-              results. &quot;
-            </h1>
-            <div className="flex items-center gap-x-1">
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-            </div>
-
-            <span className="text-xl font-medium">
-              Jordan, Brisson <br />
-              CEO, Atlas Massage
-            </span>
-          </div>
-
-
-          <div className="flex flex-col gap-y-5 ">
-            <h1 className="text-lg md:text-xl ">
-              &quot;We&apos;ve been working with Bird for over 2 years and
-              they&apos;ve been amazing to work with. They&apos;ve helped us
-              grow our business and we couldn&apos;t be happier with the
-              results. &quot;
-            </h1>
-            <div className="flex items-center gap-x-1">
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-            </div>
-
-            <span className="text-xl font-medium">
-              Jordan, Brisson <br />
-              CEO, Atlas Massage
-            </span>
-          </div>
+      
 
 
 
 
-        </main>
-      </section>
+       
 
       <Element name="guarentees">
         <ShootingStarsAndStarsBackgroundDemo />
