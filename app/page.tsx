@@ -59,7 +59,7 @@ export default function Home() {
     >
       <Navbar/>
 
-      <main className="md:pb-10 pt-[15rem]">
+      <main className="md:pb-10 pt-[5rem] md:pt-[15rem]">
         <div className="md:px-0 mx-6 xl:w-4/5 2xl:w-[68%] md:mx-auto mt-[2rem]">
           <AnimatedShinyTextDemo />
 
