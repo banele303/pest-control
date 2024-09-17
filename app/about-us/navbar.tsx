@@ -30,17 +30,13 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="overflow-clip 
- inset-0 
- -z-10 h-full w-full bg-[#fafafa]
-  bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)]
-   bg-[size:14px_24px]">
+    <div className="">
       <div>
         <div
           className={
             scrolled
-              ? "scrolled  bg-white items-center  mx-auto md:left-[10rem]  rounded-md w-full md:w-3/4 z-50 top-5 md:top-10  fixed drop-shadow-lg pt-[1.3rem] pb-[1.3rem] "
-              : "   z-50   top-5 md:top-10  md:left-[10rem] rounded-md w-full  md:w-3/4  fixed drop-shadow-lg  py-[1rem]   bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"
+              ? "scrolled  bg-white items-center  mx-auto md:left-[10rem]  rounded-md w-full md:w-3/4 z-50 top-5 md:top-10  fixed drop-shadow-lg pt-[1.3rem] pb-[1.3rem] bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"
+              : "   z-50   top-5 md:top-10  md:left-[10rem] rounded-md w-full  md:w-3/4  fixed drop-shadow-lg  py-[1rem]   "
           }
         >
           <div className="px-2 flex justify-between items-center w-full h-full">
