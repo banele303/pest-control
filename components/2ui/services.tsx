@@ -44,14 +44,14 @@ const services = [
 
 const Services = () => {
     return (
-        <section className=" py-[2rem]">
+        <section className="py-[2rem]">
 
 
 
 
 
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 mx-[2rem] md:mx-[4rem]">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 mx-[-2rem]  md:mx-[4rem]">
                 {services.map((service) => (
                     <div
                         key={service.title}
@@ -61,7 +61,7 @@ const Services = () => {
                             src={service.icon}
                             width={10000}
                             height={10000}
-                            className="object-contain bg-gray-100 p-4 w-full"
+                            className="object-contain bg-gray-100 p-4 w-full roundend-[6px]"
                             alt="image"
                         />
                         <h1 className="text-xl font-medium">{service.title}</h1>

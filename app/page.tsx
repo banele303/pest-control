@@ -17,6 +17,7 @@ import { IconStarFilled } from "@tabler/icons-react";
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
 import Services from "@/components/2ui/services";
+import Navbar from "./about-us/navbar";
 
 
 const services = [
@@ -56,82 +57,10 @@ export default function Home() {
   bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)]
    bg-[size:14px_24px]"
     >
-      <Element
-        name="top"
-        className="overflow-hidden rounded-[6px] top-5 sticky md:mx-auto z-50 
-   xl:w-[88%] 2xl:w-[78%] bg-white flex items-center 
-   justify-between py-6 px-4 md:px-8 mx-6"
-      >
-        <Link href={"/"}>
-          <Image
-            src={"/logo/logo.webp"}
-            alt="Logo"
-            width={1000}
-            height={1000}
-            className="w-28"
-          />
-        </Link>
+      <Navbar/>
 
-        <div className="absolute right-1/2 translate-x-1/2 transform">
-          <div className="hidden md:flex gap-x-10 items-center text-gray-700 font-medium text-lg cursor-pointer">
-            <Link href={"/showcase"} className="hover:text-blue-500">
-              Home
-            </Link>
-            <Link href={"/showcase"} className="hover:text-blue-500">
-              About US
-            </Link>
-
-
-            <ScrollLink
-              to="services"
-              smooth={true}
-              className="hover:text-blue-500"
-            >
-              Services
-            </ScrollLink>
-
-            <ScrollLink
-              to="process"
-              smooth={true}
-              className="hover:text-blue-500"
-            >
-              Testimonials
-            </ScrollLink>
-
-
-          </div>
-        </div>
-
-        <div className="flex items-center gap-x-4">
-          <a href="tel:519400200" className="hidden lg:flex">
-            <button className="px-4 py-2 rounded-md flex items-center gap-x-3">
-              +27 74 684 5729
-            </button>
-          </a>
-
-          <Link
-            href={"/meeting"}
-            className="
-  py-3 
-  px-6
-  text-lg 
-  hover:bg-[#abcbff]
-  rounded-[6px]
-  border-2
-  border-black
-  text-white
-  bg-[#121212]
-  transition
-  duration-200
-     hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] "
-          >
-            Book a call
-          </Link>
-        </div>
-      </Element>
-
-      <main className="md:pb-10">
-        <div className="md:px-0 mx-6 xl:w-4/5 2xl:w-[68%] md:mx-auto mt-14">
+      <main className="md:pb-10 pt-[15rem]">
+        <div className="md:px-0 mx-6 xl:w-4/5 2xl:w-[68%] md:mx-auto mt-[2rem]">
           <AnimatedShinyTextDemo />
 
 <div className="">
@@ -161,7 +90,8 @@ export default function Home() {
             <Link
               href="/meeting"
               className="py-3 
-            px-10
+              text-[16px]
+            px-5
             md:px-16
       md:text-xl
       hover:bg-[#abcbff] 
@@ -181,8 +111,9 @@ export default function Home() {
               href={"/showcase"}
               className="
               bg-white
+                text-[16px]
    py-3 
-   px-10
+  px-5 
    md:px-16
       md:text-xl
         border-4
@@ -380,33 +311,20 @@ export default function Home() {
       </section>
 
       <Element name="process">
-        <main className="md:px-0 mx-1 md:mx-auto">
-          <h1 className="text-3xl md:text-5xl md:text-center font-medium flex items-center gap-x-2 mx-auto justify-center">
+        <main className="md:px-0 mx-[2rem]  md:mx-auto">
+          <h1 className="text-xl md:text-5xl md:text-center font-medium flex items-center gap-x-2 mx-auto justify-center">
             PEST
             <span className="text-blue-500 flex gap-x-1 items-center">
-              {" "}
-              <Image
-                src={"/pest/freeco.png"}
-                width={10000}
-                height={10000}
-                className="w-6"
-                alt="image"
-              />
-              CONTROL AND
-              <Image
-                src={"/icons/star.svg"}
-                width={10000}
-                height={10000}
-                className="w-6 mb-8"
-                alt="image"
-              />
-            </span>{" "}
-            EXTERMINATION
+             
+              CONTROL 
+             
+            </span>
+            & EXTERMINATION
           </h1>
 
           <p className="
           py-4  mx-auto 
-          text-xl md:text-xl text-gray-500 mx-[2rem] md:mx-[4rem]">
+          text-xl md:text-xl text-gray-500  md:mx-[4rem]">
             The identification of insects and other pests by
             phone or email it is very hard. Need to know what kind of
             bug or rodents are in your house? Here are some tips to keep

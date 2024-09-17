@@ -4,7 +4,7 @@ import { Cover } from "@/components/ui/cover";
 export function CoverDemo() {
   return (
     <div>
-      <h1 className="text-3xl md:text-6xl 
+      <h1 className="text-2xl md:text-6xl 
        font-semibold
         max-w-8xl 
         mx-auto 
