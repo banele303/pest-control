@@ -5,26 +5,39 @@ import Link from "next/link";
 const works = [
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
+    imageUrl: "/pest/ants.jpeg",
+    title: "Rubbish Brothers",
+    link: "https://www.rubbishbrothers.com",
+  },
+  
+  {
+    background: "bg-gray-200",
+    imageUrl: "/pest/rats2.jpeg",
     title: "Rubbish Brothers",
     link: "https://www.rubbishbrothers.com",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
+    imageUrl: "/pest/mosk.png",
     title: "Atlas Massage",
     link: "https://www.atlasmassage.ca",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
+    imageUrl: "/pest/bees.jpeg",
     title: "Canadian Security Solutions",
     link: "https://www.canadiansecuritysolutions.com",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Flight 9",
+    imageUrl: "/pest/rat.jpeg",
+    title: "Rats Control",
+    link: "https://www.flight9.art",
+  },
+  {
+    background: "bg-gray-200",
+    imageUrl: "/pest/brounants.jpeg",
+    title: "Rats Control",
     link: "https://www.flight9.art",
   },
 
