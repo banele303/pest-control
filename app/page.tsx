@@ -19,6 +19,7 @@ import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen
 import Services from "@/components/2ui/services";
 import Navbar from "./about-us/navbar";
 import Footer from "./about-us/footar";
+import MoreInfo from "./about-us/more-info";
 
 
 const services = [
@@ -351,7 +352,7 @@ export default function Home() {
       <section className="my-10 md:py-20 xl:w-4/5 2xl:w-[68%] md:mx-auto">
         <LetsMakeThingsHappenSection />
       </section>
-
+<MoreInfo/>
      <Footer/>
     </div>
   );

@@ -6,6 +6,7 @@ import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen
 import Navbar from "./navbar";
 import Image from "next/image";
 import Link from "next/link";
+import MoreInfo from "./more-info";
 
 const Showcase = () => {
   return (
@@ -108,7 +109,7 @@ We are highly specialised in what we do, and we can handle even the most difficu
 
 
       </section>
-
+<MoreInfo/>
      <Footer/>
     </div>
   );
